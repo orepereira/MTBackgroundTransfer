@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBAC7412180F1132003B1ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC7411180F1132003B1ECA /* Foundation.framework */; };
+		CBAC7414180F1132003B1ECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC7413180F1132003B1ECA /* CoreGraphics.framework */; };
+		CBAC7416180F1132003B1ECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC7415180F1132003B1ECA /* UIKit.framework */; };
+		CBAC741C180F1132003B1ECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBAC741A180F1132003B1ECA /* InfoPlist.strings */; };
+		CBAC741E180F1132003B1ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAC741D180F1132003B1ECA /* main.m */; };
+		CBAC7422180F1132003B1ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAC7421180F1132003B1ECA /* AppDelegate.m */; };
+		CBAC7425180F1132003B1ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAC7423180F1132003B1ECA /* Main.storyboard */; };
+		CBAC7428180F1132003B1ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAC7427180F1132003B1ECA /* ViewController.m */; };
+		CBAC742A180F1132003B1ECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAC7429180F1132003B1ECA /* Images.xcassets */; };
+		CBAC7431180F1132003B1ECA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC7430180F1132003B1ECA /* XCTest.framework */; };
+		CBAC7432180F1132003B1ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC7411180F1132003B1ECA /* Foundation.framework */; };
+		CBAC7433180F1132003B1ECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC7415180F1132003B1ECA /* UIKit.framework */; };
+		CBAC743B180F1132003B1ECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBAC7439180F1132003B1ECA /* InfoPlist.strings */; };
+		CBAC743D180F1132003B1ECA /* MTBackgroundTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAC743C180F1132003B1ECA /* MTBackgroundTransferTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBAC7434180F1132003B1ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAC7406180F1132003B1ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAC740D180F1132003B1ECA;
+			remoteInfo = MTBackgroundTransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBAC740E180F1132003B1ECA /* MTBackgroundTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTBackgroundTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAC7411180F1132003B1ECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBAC7413180F1132003B1ECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBAC7415180F1132003B1ECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBAC7419180F1132003B1ECA /* MTBackgroundTransfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTBackgroundTransfer-Info.plist"; sourceTree = "<group>"; };
+		CBAC741B180F1132003B1ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBAC741D180F1132003B1ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBAC741F180F1132003B1ECA /* MTBackgroundTransfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTBackgroundTransfer-Prefix.pch"; sourceTree = "<group>"; };
+		CBAC7420180F1132003B1ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBAC7421180F1132003B1ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBAC7424180F1132003B1ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBAC7426180F1132003B1ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBAC7427180F1132003B1ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBAC7429180F1132003B1ECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBAC742F180F1132003B1ECA /* MTBackgroundTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTBackgroundTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAC7430180F1132003B1ECA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CBAC7438180F1132003B1ECA /* MTBackgroundTransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTBackgroundTransferTests-Info.plist"; sourceTree = "<group>"; };
+		CBAC743A180F1132003B1ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBAC743C180F1132003B1ECA /* MTBackgroundTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBackgroundTransferTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBAC740B180F1132003B1ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAC7414180F1132003B1ECA /* CoreGraphics.framework in Frameworks */,
+				CBAC7416180F1132003B1ECA /* UIKit.framework in Frameworks */,
+				CBAC7412180F1132003B1ECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAC742C180F1132003B1ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAC7431180F1132003B1ECA /* XCTest.framework in Frameworks */,
+				CBAC7433180F1132003B1ECA /* UIKit.framework in Frameworks */,
+				CBAC7432180F1132003B1ECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBAC7405180F1132003B1ECA = {
+			isa = PBXGroup;
+			children = (
+				CBAC7417180F1132003B1ECA /* MTBackgroundTransfer */,
+				CBAC7436180F1132003B1ECA /* MTBackgroundTransferTests */,
+				CBAC7410180F1132003B1ECA /* Frameworks */,
+				CBAC740F180F1132003B1ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBAC740F180F1132003B1ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBAC740E180F1132003B1ECA /* MTBackgroundTransfer.app */,
+				CBAC742F180F1132003B1ECA /* MTBackgroundTransferTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBAC7410180F1132003B1ECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBAC7411180F1132003B1ECA /* Foundation.framework */,
+				CBAC7413180F1132003B1ECA /* CoreGraphics.framework */,
+				CBAC7415180F1132003B1ECA /* UIKit.framework */,
+				CBAC7430180F1132003B1ECA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBAC7417180F1132003B1ECA /* MTBackgroundTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				CBAC7420180F1132003B1ECA /* AppDelegate.h */,
+				CBAC7421180F1132003B1ECA /* AppDelegate.m */,
+				CBAC7423180F1132003B1ECA /* Main.storyboard */,
+				CBAC7426180F1132003B1ECA /* ViewController.h */,
+				CBAC7427180F1132003B1ECA /* ViewController.m */,
+				CBAC7429180F1132003B1ECA /* Images.xcassets */,
+				CBAC7418180F1132003B1ECA /* Supporting Files */,
+			);
+			path = MTBackgroundTransfer;
+			sourceTree = "<group>";
+		};
+		CBAC7418180F1132003B1ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAC7419180F1132003B1ECA /* MTBackgroundTransfer-Info.plist */,
+				CBAC741A180F1132003B1ECA /* InfoPlist.strings */,
+				CBAC741D180F1132003B1ECA /* main.m */,
+				CBAC741F180F1132003B1ECA /* MTBackgroundTransfer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBAC7436180F1132003B1ECA /* MTBackgroundTransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAC743C180F1132003B1ECA /* MTBackgroundTransferTests.m */,
+				CBAC7437180F1132003B1ECA /* Supporting Files */,
+			);
+			path = MTBackgroundTransferTests;
+			sourceTree = "<group>";
+		};
+		CBAC7437180F1132003B1ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAC7438180F1132003B1ECA /* MTBackgroundTransferTests-Info.plist */,
+				CBAC7439180F1132003B1ECA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBAC740D180F1132003B1ECA /* MTBackgroundTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAC7440180F1132003B1ECA /* Build configuration list for PBXNativeTarget "MTBackgroundTransfer" */;
+			buildPhases = (
+				CBAC740A180F1132003B1ECA /* Sources */,
+				CBAC740B180F1132003B1ECA /* Frameworks */,
+				CBAC740C180F1132003B1ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTBackgroundTransfer;
+			productName = MTBackgroundTransfer;
+			productReference = CBAC740E180F1132003B1ECA /* MTBackgroundTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBAC742E180F1132003B1ECA /* MTBackgroundTransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAC7443180F1132003B1ECA /* Build configuration list for PBXNativeTarget "MTBackgroundTransferTests" */;
+			buildPhases = (
+				CBAC742B180F1132003B1ECA /* Sources */,
+				CBAC742C180F1132003B1ECA /* Frameworks */,
+				CBAC742D180F1132003B1ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAC7435180F1132003B1ECA /* PBXTargetDependency */,
+			);
+			name = MTBackgroundTransferTests;
+			productName = MTBackgroundTransferTests;
+			productReference = CBAC742F180F1132003B1ECA /* MTBackgroundTransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBAC7406180F1132003B1ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MobileTuts;
+				TargetAttributes = {
+					CBAC740D180F1132003B1ECA = {
+						DevelopmentTeam = W6HE669KDQ;
+					};
+					CBAC742E180F1132003B1ECA = {
+						TestTargetID = CBAC740D180F1132003B1ECA;
+					};
+				};
+			};
+			buildConfigurationList = CBAC7409180F1132003B1ECA /* Build configuration list for PBXProject "MTBackgroundTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBAC7405180F1132003B1ECA;
+			productRefGroup = CBAC740F180F1132003B1ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBAC740D180F1132003B1ECA /* MTBackgroundTransfer */,
+				CBAC742E180F1132003B1ECA /* MTBackgroundTransferTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBAC740C180F1132003B1ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAC742A180F1132003B1ECA /* Images.xcassets in Resources */,
+				CBAC741C180F1132003B1ECA /* InfoPlist.strings in Resources */,
+				CBAC7425180F1132003B1ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAC742D180F1132003B1ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAC743B180F1132003B1ECA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBAC740A180F1132003B1ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAC7428180F1132003B1ECA /* ViewController.m in Sources */,
+				CBAC7422180F1132003B1ECA /* AppDelegate.m in Sources */,
+				CBAC741E180F1132003B1ECA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAC742B180F1132003B1ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAC743D180F1132003B1ECA /* MTBackgroundTransferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBAC7435180F1132003B1ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAC740D180F1132003B1ECA /* MTBackgroundTransfer */;
+			targetProxy = CBAC7434180F1132003B1ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBAC741A180F1132003B1ECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAC741B180F1132003B1ECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBAC7423180F1132003B1ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAC7424180F1132003B1ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBAC7439180F1132003B1ECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAC743A180F1132003B1ECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBAC743E180F1132003B1ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBAC743F180F1132003B1ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBAC7441180F1132003B1ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTBackgroundTransfer/MTBackgroundTransfer-Prefix.pch";
+				INFOPLIST_FILE = "MTBackgroundTransfer/MTBackgroundTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBAC7442180F1132003B1ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTBackgroundTransfer/MTBackgroundTransfer-Prefix.pch";
+				INFOPLIST_FILE = "MTBackgroundTransfer/MTBackgroundTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBAC7444180F1132003B1ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTBackgroundTransfer.app/MTBackgroundTransfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTBackgroundTransfer/MTBackgroundTransfer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTBackgroundTransferTests/MTBackgroundTransferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CBAC7445180F1132003B1ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTBackgroundTransfer.app/MTBackgroundTransfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTBackgroundTransfer/MTBackgroundTransfer-Prefix.pch";
+				INFOPLIST_FILE = "MTBackgroundTransferTests/MTBackgroundTransferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBAC7409180F1132003B1ECA /* Build configuration list for PBXProject "MTBackgroundTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAC743E180F1132003B1ECA /* Debug */,
+				CBAC743F180F1132003B1ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAC7440180F1132003B1ECA /* Build configuration list for PBXNativeTarget "MTBackgroundTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAC7441180F1132003B1ECA /* Debug */,
+				CBAC7442180F1132003B1ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAC7443180F1132003B1ECA /* Build configuration list for PBXNativeTarget "MTBackgroundTransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAC7444180F1132003B1ECA /* Debug */,
+				CBAC7445180F1132003B1ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBAC7406180F1132003B1ECA /* Project object */;
+}
